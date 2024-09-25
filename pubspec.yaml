@@ -1,0 +1,28 @@
+name: pro22
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  whatsapp: ^3.0.0
+  http: ^1.2.2 # Change this line
+  qr_flutter: ^4.0.0
+  file_picker: ^5.0.0  # or the latest version
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
